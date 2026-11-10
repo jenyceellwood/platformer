@@ -96,7 +96,7 @@ const TUNING = {
   STOMP_BOUNCE: 480,
 
   // How many lives you start with.
-  LIVES: 5,
+  LIVES: 3,
 };
 
 /* DEFAULTS — copy these back if you want to start over:
