@@ -85,6 +85,18 @@ const ENEMY_TYPES = {
 
   // <-- paste your new enemy here
 
+sentry: {
+    movement: "chase",
+    speed: 50,
+    width: 22,
+    height: 26,
+    color: "#800020",
+    stompable: false,
+    points: 0,
+    turnsAtLedges: true,
+    sightRange: 160,
+},
+
 };
 
 
@@ -146,6 +158,15 @@ const PICKUP_TYPES = {
 
   // <-- paste your new pickup here
 
+heart: {
+    color: "#ff4d6d",
+    size: 14,
+    shape: "circle",
+    points: 0,
+    treasure: false,
+    power: { life: 1 },
+},
+
 };
 
 
@@ -175,4 +196,8 @@ const LEGEND = {
   "H": { kind: "enemy",  name: "hopper" },
 
   // <-- add your new letters here
+   
+"S": { kind: "enemy", name: "sentry" },
+"h": { kind: "pickup", name: "heart" },
+
 };
